@@ -1,0 +1,15 @@
+#### List all messages
+GET http://localhost:5000/messages
+
+#### Create a messages
+POST http://localhost:5000/messages
+Content-Type: application/json
+
+{
+"content":"messages after DI"
+}
+
+#### Get a particular messsage
+GET http://localhost:5000/messages/991
+
+
